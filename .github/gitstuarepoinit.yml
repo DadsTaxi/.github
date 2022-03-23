@@ -1,8 +1,6 @@
-repository:
-  # See https://docs.github.com/en/rest/reference/repos#update-a-repository for all available settings. 
-
-  # A short description of the repository that will show up on GitHub
-  description: description and branch protection is managed by ./.github/settings.yml with settings inherited from https://raw.githubusercontent.com/dadstaxi/.github/main/.github/settings.yml
+# This can be expanded later however the only values which are set on a new repository or an existing repository on which the GitHub App is installed is:
+# - required_approving_review_count
+#
 
 branches:
   - name: main
